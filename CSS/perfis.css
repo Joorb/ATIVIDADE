@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    margin:0;
+    padding: 0;
+}
+.pope{
+    display: none;
+}
+body{
+    background-image:linear-gradient(black 0%,#0A2942 100%);
+    background-attachment:fixed;
+}
+.logo{
+    cursor: pointer;
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    align-items:start;
+}
+#logo{
+    width: 171px;
+    height: 151px;
+}
+#popeflix{
+    width: 311px;
+    height: 102px;
+    padding-top:40px;
+}
+.perfis{
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   align-items:center;
+   margin:100px;
+
+}
+.container img{
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    margin:14px;
+    border:5px solid #5FABF7;
+}
+.container img:hover{
+    transition: all .4s;
+    transform: scale(1.1)
+}
+#encerrar{
+    display:flex;
+    justify-content: center;
+    font-size:30px;
+    color: #5FABF7;
+    text-decoration: none;
+	font-family:'Poppins';
+    
+}
+#encerrar:visited{
+    text-decoration:none;
+    color:#5FABF7;
+}
+h2{
+    color: #5FABF7;
+    margin-left: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: flex;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#encerro{
+    margin-top: 90px;
+}
+footer{
+    font-family:'Poppins';
+    margin-top:20px;
+    margin-bottom:10px;
+	width: 100%;
+	height: 50px;
+    color: #5FABF7;
+    font-size: 15px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+    #popeflix{
+        display:none;
+    }
+    .pope{
+        cursor: pointer;
+        display: block;
+    }
+    .log{
+        display: none;
+    }
+    .logo{
+        margin-right: 17px;
+    }
+    .perfis{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+        align-items:center;
+        
+
+    }
+	.container{
+	margin-right: -10px;	
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+        align-items:center;
+    
+	}
+    .container img{
+        width: 80px;
+        height:80px;
+        border:3px solid #5FABF7;
+
+    }
+    #encerrar{
+        font-size:20px;
+        margin-bottom: 90px;
+    }
+    a{
+        margin-right: 30px;
+    }
+    h2{
+        margin-left: 40px;
+    }
+    footer{
+    font-family:'Poppins';
+    display:flex;
+	margin-top:30px;
+    margin-left: 20px;
+	width: 500px;
+	height: 50px;
+    color: #5FABF7;
+    font-size: 12px;
+    }
+}

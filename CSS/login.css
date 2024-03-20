@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+
+}
+.pope{
+	display:none
+}
+.log{
+	width: 424px; 
+    height:108px; 
+}
+p{
+	font-family:'Poppins';
+}
+h3{
+	font-family:'Poppins';
+    color: white;
+    font-weight: 200;
+}
+body{
+    background-image:linear-gradient(black 0%,#0A2942 100%);
+    background-attachment:fixed;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items:start;
+    margin-top: 20px;
+    animation: waves 2s ;
+}
+
+form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+}
+fieldset{
+    text-align:center;
+    width: 50%;
+    background-color:transparent;
+    border:none;
+}
+input[type=text]{
+    margin:20px;
+    width: 381px;
+    height:67px;
+    border-radius:25px;
+    border: 3px solid black;
+    color:black;
+    font-size:30px;
+
+}
+input[type=password]{
+    margin:20px;
+    width: 381px;
+    height:67px;
+    border-radius:25px;
+    border: 3px solid black;
+    color:black;
+    font-size:30px;
+
+}
+
+input::placeholder {
+    color:#000000;
+    font-size:30px;
+}
+button{
+    margin:20px;
+    width: 381px;
+    height:67px;
+    border-radius:25px;
+    background-color: white;
+    border:3px solid black;
+    font-size:30px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:lightgray;
+    transition:all .4s;
+    transform: scale(1.1);
+}
+p{
+    color:white;
+    font-family:inter;
+    font-size:20px;
+    display:inline;
+}
+a:link{
+    font-size:20px;
+    color:#5FABF7;
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+    color:#5FABF7;
+}
+footer{
+    color: #5FABF7;  
+    text-align: center;
+    word-spacing: 9px;
+    margin-top: 80px;
+}
+@media screen and (min-width: 0px) and (max-width: 500px){
+    .log{
+        display: none;
+    }
+    .pope{
+        display:block;
+        width: 120px;
+        height: 123px;
+    }
+    button{
+        width: 206px;
+        height:56px;
+    }
+    
+
+}
+@keyframes waves{
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+    100%{
+        width: 100%;
+        opacity:1;
+    }
+}
+    

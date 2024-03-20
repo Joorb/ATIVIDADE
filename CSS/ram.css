@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+	margin:0;
+	padding:0;
+	
+}
+@media screen and (min-width: 501px) and (max-width: 5000px){
+.pope{
+	display:none;
+}
+.voltar{
+	display:none;
+}
+
+.nomef{
+	display:none;
+}
+html{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	height:1816px;
+	background-color:#000000;
+}
+li, a , button{
+	font-family: 'Poppins', sans-serif;
+	font-weight:500;
+	color:#1b2224;
+	text-decoration:none;
+}
+
+header{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:linear-gradient(to right, black , #091E32);
+}
+
+.logo{
+	width: 424px; 
+    height:108px; 
+	cursor:pointer;
+}
+
+nav{
+	height:172px;
+	list-style:none;
+}
+
+nav ul{
+	margin-left:120px;
+	margin-top:60px;
+	word-spacing:10px;
+}
+
+nav ul li{
+	display:inline-block;
+	padding:0px 20px;
+	font-size:35px;
+	
+}
+
+nav ul li a{
+	transition:all 0.3s ease 0%;
+	border-radius: 70px;
+	color: white;
+}
+
+nav ul li a:hover{
+	background-color:#5FABF7;
+	padding:2px 13px;
+	border-radius: 70px;
+	transition:0.1s;
+}
+
+.conta{
+	width:98px;
+	height:98px;
+	border:none;
+	border-radius:100%;
+	cursor: pointer;
+	margin-right:22px;
+}
+
+.imgprin{
+	width: 646px;
+	height: 518px;
+	border-radius:5px;
+	margin-left:5.778%;
+	margin-top:6.389%;
+
+}
+.descricao{
+	width: 646px;
+	height: 518px;
+	border-radius: 5px;
+	background: rgba(95, 171, 247, 0.10);
+	margin-left:52.361%;
+	margin-top:-33.5%;
+	font-size: 27px;
+	color:#5fabf7;
+	text-align:center;
+	line-height: 2;
+	text-align: justify;
+	
+}
+
+.assistir{
+	cursor:pointer;
+	width: 646px;
+	height: 196px;
+	background: rgba(95, 171, 247, 0.10);
+	border-radius: 5px;
+	color:#5fabf7;
+	margin-left:5.778%;
+	margin-top:4.583%;
+	text-align:center;
+	font-size:80px;
+	line-height:2.5;
+}
+
+.genero{
+	width: 646px;
+	height: 196px;
+	background: rgba(95, 171, 247, 0.10);
+	border-radius: 5px;
+	color:#5fabf7;
+	margin-left:52.361%;
+	margin-top:-12.681%;
+}
+.cla{
+	width: 88px;
+	height: 88px;
+	border-radius: 20px;
+	margin-left:47px;
+	margin-top:54px;
+}
+.genero p{
+	font-size:30px;
+	margin-left:177px;
+	margin-top:-70px;
+}
+
+#melhores-momentos{
+	margin-top:122px;
+	width:100%;
+	height:257px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items:center;
+}
+.videos-momentos{
+	width: 423px;
+	height: 257px;
+}
+.videos-momentos video{
+	width:100%;
+	height:100%;
+}
+footer{
+	color:#5FABF7;
+	display:flex;
+	flex-direction: row;
+	margin-top:275px;
+	width:100%;
+	height: 122px;
+	background: linear-gradient(180deg, #000 0%, #061422 100%);
+
+}
+
+.face{
+	cursor:pointer;
+	margin-left:74px;
+	margin-top:37px;
+	width:70px;
+	height:70px;
+}
+.linked{
+	cursor:pointer;
+	margin-left:27px;
+	margin-top:30px;
+	width:82px;
+	height:82px;
+}
+.redes{margin-top:40px;
+	margin-left:40px;
+	font-size: 35px;
+}
+.copy{margin-top:40px;
+	margin-left:123px;
+	font-size: 35px;
+}
+.face:hover{
+	width:77px;
+	height:77px;
+	transition:0.3s;
+}
+
+.linked:hover{
+	width:90.2px;
+	height:90.2px;
+	transition:0.3s;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+body{
+	width:500px;
+	height:800px;
+	background-color:#000000;
+}
+	
+html{
+	font-family: 'Poppins', sans-serif;
+	text-decoration:none;
+}
+.logo{
+	display:none
+}
+.voltar{
+	width:35px;
+	height:30px;
+	cursor:pointer;
+}
+.pope{
+	margin-left:-80px;
+	width:40px;
+	height:41px;
+	cursor:pointer;
+}
+	
+
+header{
+	height:52px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:linear-gradient(to right, black , #091E32);
+}
+
+nav{
+	display:none;
+}
+.conta{
+	margin-top:3px;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	cursor: pointer;
+	margin-right:22px;
+}
+
+.imgprin{
+	width: 500px;
+	height: 211px;
+	margin-top:32px;
+}
+
+.nomef{
+	font-size:30px;
+	color:#5FABF7;
+	margin-top:17px;
+	margin-left:38px;
+}
+.descricao{
+	width: 302px;
+	height: 264px;
+	border-radius: 5px;
+	background: rgba(95, 171, 247, 0.10);
+	margin-left:99px;
+	margin-top:25px;
+	font-size: 14px;
+	color:#5fabf7;
+	text-align:center;
+	line-height:1.8;
+}
+
+.assistir{
+	cursor:pointer;
+	width: 174px;
+	height: 45px;
+	background: rgba(95, 171, 247, 0.10);
+	border-radius: 5px;
+	color:#5fabf7;
+	margin-left:288px;
+	margin-top:-341px;
+	text-align:center;
+	font-size:40px;
+	line-height:1;
+}
+
+.genero{
+	width: 302px;
+	height: 71px;
+	background: rgba(95, 171, 247, 0.10);
+	border-radius: 5px;
+	color:#5fabf7;
+	margin-left:99px;
+	margin-top:324px;
+}
+.cla{
+	width: 44px;
+	height: 44px;
+	border-radius: 5px;
+	margin-left:12px;
+	margin-top:15px;
+}
+.genero p{
+	font-size:15px;
+	margin-left:89px;
+	margin-top:-40px;
+}
+
+#melhores-momentos{
+	display:none;
+}
+footer{
+	display:flex;
+	flex-direction: row;
+	margin-top:36px;
+	width: 500px;
+	height: 50px;
+	background: linear-gradient(180deg, #000 0%, #061422 100%);
+}
+
+.face{
+	cursor:pointer;
+	margin-left:8px;
+	width:30px;
+	height:30px;
+}
+.linked{
+	cursor:pointer;
+	margin-left:10px;
+	margin-top:-3px;
+	width:35px;
+	height:35px;
+}
+.redes{
+	margin-left:21px;
+	font-size: 15px;
+	color:#5FABF7;
+}
+.copy{
+	margin-left:35px;
+	font-size: 15px;
+	color:#5fabf7;
+}
+.face:hover{
+	width:33px;
+	height:33px;
+	transition:0.3s;
+}
+
+.linked:hover{
+	width:38.5px;
+	height:38.5px;
+	transition:0.3s;
+}
+}
